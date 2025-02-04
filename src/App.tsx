@@ -1,5 +1,11 @@
+import Tranding from "./pages/tranding/Tranding";
+
 const App = () => {
-  return <div>Hello</div>;
+  return (
+    <div>
+      <Tranding />
+    </div>
+  );
 };
 
 export default App;
