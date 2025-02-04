@@ -1,3 +1,4 @@
+import Tranding from "../../pages/tranding/Tranding";
 import Footer from "./Footer/Footer";
 import Header from "./header/Header";
 
@@ -5,7 +6,9 @@ const Layout = () => {
   return (
     <div className="Layout">
       <Header />
-      <main></main>
+      <main>
+        <Tranding />
+      </main>
       <Footer />
     </div>
   );
