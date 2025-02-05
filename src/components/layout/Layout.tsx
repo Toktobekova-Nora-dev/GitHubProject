@@ -1,12 +1,17 @@
+import BestSellers from "../../pages/best_sellers/BestSellers";
+import Hero from "../../pages/hero/Hero";
 import Footer from "./Footer/Footer";
 import Header from "./header/Header";
 
 const Layout = () => {
   return (
     <div className="Layout">
-      <Header />
-      <main></main>
-      <Footer />
+      {/* <Header /> */}
+      <main>
+        <Hero />
+        <BestSellers />
+      </main>
+      {/* <Footer /> */}
     </div>
   );
 };

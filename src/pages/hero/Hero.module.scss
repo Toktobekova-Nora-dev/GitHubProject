@@ -1,0 +1,383 @@
+.main {
+  margin-block: 30px;
+  .content {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    img {
+      width: 100%;
+      max-width: 800px;
+      object-fit: cover;
+    }
+    .right_content {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      height: 100%;
+      h1 {
+        font-size: 70px;
+        line-height: 80px;
+        font-weight: 400;
+        font-family: Federo;
+        color: #3a3a3a;
+      }
+      button {
+        padding: 10px 12px;
+        width: 20%;
+        font-size: 0.7em;
+        font-weight: 400;
+        border-radius: 3px;
+        border: none;
+        background-color: #434343;
+        color: white;
+      }
+    }
+  }
+}
+
+@media (max-width: 1220px) {
+  .main {
+    .content {
+      gap: 30px;
+      .right_content {
+        h1 {
+          font-size: 60px;
+          line-height: 70px;
+          text-align: center;
+        }
+        button {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1207px) {
+  .main {
+    .content {
+      .right_content {
+        h1 {
+          font-size: 50px;
+          line-height: 60px;
+          text-align: center;
+        }
+        button {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1047px) {
+  .main {
+    .content {
+      gap: 30px;
+      img {
+        width: 100%;
+        max-width: 500px;
+      }
+      .right_content {
+        h1 {
+          font-size: 50px;
+          line-height: 70px;
+        }
+        button {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1031px) {
+  .main {
+    .content {
+      gap: 30px;
+      img {
+        width: 100%;
+        max-width: 600px;
+        object-fit: cover;
+      }
+      .right_content {
+        h1 {
+          font-size: 40px;
+          line-height: 50px;
+        }
+        button {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 963px) {
+  .main {
+    .content {
+      gap: 30px;
+      img {
+        width: 100%;
+        max-width: 500px;
+      }
+      .right_content {
+        h1 {
+          font-size: 50px;
+          line-height: 70px;
+        }
+        button {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 930px) {
+  .main {
+    .content {
+      gap: 30px;
+      img {
+        width: 100%;
+        max-width: 500px;
+      }
+      .right_content {
+        h1 {
+          font-size: 40px;
+          line-height: 60px;
+        }
+        button {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 915px) {
+  .main {
+    .content {
+      gap: 20px;
+      img {
+        width: 100%;
+        max-width: 500px;
+      }
+      .right_content {
+        h1 {
+          font-size: 45px;
+          line-height: 60px;
+        }
+        button {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 875px) {
+  .main {
+    .content {
+      gap: 20px;
+      img {
+        width: 100%;
+        max-width: 500px;
+      }
+      .right_content {
+        h1 {
+          font-size: 40px;
+          line-height: 50px;
+        }
+        button {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 840px) {
+  .main {
+    .content {
+      gap: 20px;
+      img {
+        width: 100%;
+        max-width: 500px;
+      }
+      .right_content {
+        gap: 15px;
+        h1 {
+          font-size: 30px;
+          line-height: 40px;
+        }
+        button {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 788px) {
+  .main {
+    .content {
+      flex-direction: column;
+      img {
+        width: 100%;
+        max-width: 720px;
+        height: 400px;
+      }
+      .right_content {
+        gap: 30px;
+        h1 {
+          font-size: 50px;
+          line-height: 40px;
+        }
+        button {
+          width: 40%;
+          margin: auto;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 668px) {
+  .main {
+    .content {
+      flex-direction: column;
+      img {
+        width: 100%;
+        max-width: 720px;
+        height: 300px;
+      }
+      .right_content {
+        gap: 30px;
+        h1 {
+          font-size: 40px;
+          line-height: 50px;
+        }
+        button {
+          width: 40%;
+          margin: auto;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 556px) {
+  .main {
+    .content {
+      flex-direction: column;
+      img {
+        width: 100%;
+        max-width: 720px;
+        height: 280px;
+      }
+      .right_content {
+        gap: 10px;
+        h1 {
+          font-size: 38px;
+          line-height: 60px;
+        }
+        button {
+          width: 40%;
+          margin: auto;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 481px) {
+  .main {
+    .content {
+      flex-direction: column;
+      img {
+        width: 100%;
+        max-width: 720px;
+        height: 280px;
+      }
+      .right_content {
+        gap: 10px;
+        h1 {
+          font-size: 45px;
+          line-height: 50px;
+        }
+        button {
+          width: 40%;
+          margin: auto;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  .main {
+    .content {
+      flex-direction: column;
+      img {
+        width: 100%;
+        max-width: 720px;
+        height: 200px;
+      }
+      .right_content {
+        gap: 10px;
+        h1 {
+          font-size: 35px;
+          line-height: 40px;
+        }
+        button {
+          width: 30%;
+          margin: auto;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 354px) {
+  .main {
+    .content {
+      img {
+        width: 100%;
+        max-width: 720px;
+      }
+      .right_content {
+        gap: 20px;
+        h1 {
+          font-size: 30px;
+          line-height: 40px;
+        }
+        button {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  .content {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    img {
+      order: 3;
+    }
+    .right_content {
+      gap: 10px;
+      h1 {
+        font-size: 40px;
+        line-height: 50px;
+      }
+      button {
+        padding: 10px 12px;
+        width: 100%;
+      }
+    }
+  }
+}
