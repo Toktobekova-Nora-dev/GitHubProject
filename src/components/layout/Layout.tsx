@@ -7,12 +7,13 @@ import Header from "./header/Header";
 const Layout = () => {
   return (
     <div className="Layout">
-      {/* <Header /> */}
+      <Header />
       <main>
         <Hero />
         <BestSellers />
+        <Tranding />
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };
